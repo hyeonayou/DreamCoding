@@ -59,6 +59,7 @@ a {
     align-items: flex-start;
   }
   .status-bar__menu {
+    display: none;
     flex-direction: column;
     align-items: center;
     width: 100%;
@@ -69,10 +70,16 @@ a {
   }
 
   .status-bar__img {
+    display: none;
     justify-content: center;
     width: 100%;
   }
   .status-bar__toogleBtn {
     display: block;
+  }
+
+  .status-bar__menu.active,
+  .status-bar__img.active {
+    display: flex;
   }
 }
