@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  height: 300vh;
+}
+
+.nav-bar {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #202020;
+  color: white;
+  padding: 20px 30px;
+}
+.nav-bar__title {
+  display: flex;
+  align-items: center;
+}
+
+.nav-bar__title i {
+  color: #ff0000;
+}
+.nav-bar__title span {
+  vertical-align: text-top;
+  font-size: 0.7rem;
+}
+
+.nav-bar__search {
+  display: flex;
+  align-items: center;
+}
+
+.nav-bar__search input {
+  width: 400px;
+  height: 30px;
+}
+
+.nav-bar__search button {
+  width: 50px;
+  height: 36px;
+}
+
+.main-screen video {
+  width: 100%;
+}
+
+.section {
+  display: flex;
+  margin: 30px 0px;
+  height: 200px;
+}
+
+.section__column {
+  margin: 0 20px;
+}
+.section-main__title {
+  padding: 1em;
+}
+
+.section-main__year {
+  padding: 0 1em;
+}
+
+.section-main__good-icons {
+  padding: 2em 3em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.section-main__good-icon-img .fa-thumbs-up {
+  color: #5085e0;
+}
+
+.section-main__good-icon span {
+  display: flex;
+}
+
+.section-main__profile {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 15px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.section-main__profile-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+
+.section-main__profile-img img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.profile-text__title {
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.profile-text__subtitle {
+  font-size: 1em;
+  font-weight: 600;
+  opacity: 0.7;
+}
+
+.section-main__profile__subscribe button {
+  width: 80px;
+  height: 40px;
+}
+
+.up-next__title {
+  margin-bottom: 10px;
+}
+.up-next__column {
+  display: flex;
+  align-items: center;
+}
+
+.up-next__column {
+  margin: 10px;
+}
+
+.up-next__column__img img {
+  width: 150px;
+  height: 90px;
+  margin-right: 10px;
+}
+
+.up-next__column__text-title {
+  font-size: 1em;
+}
+
+.up-next__column__text-name,
+.up-next__column__text-subscribe {
+  font-size: 0.8em;
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 768px) {
+  .section {
+    flex-direction: column;
+  }
+}
